@@ -1,4 +1,4 @@
-package com.hellokoding.springboot.restful.product;
+package com.example.demo.product;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -14,7 +14,7 @@ import java.util.Optional;
 @RequestMapping("/api/v1/products")
 @Slf4j
 @RequiredArgsConstructor
-public class ProductAPI {
+public class ProductController {
     private final ProductService productService;
 
     @GetMapping

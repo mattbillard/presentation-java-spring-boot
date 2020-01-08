@@ -1,4 +1,4 @@
-package com.hellokoding.springboot.restful.product;
+package com.example.demo.product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

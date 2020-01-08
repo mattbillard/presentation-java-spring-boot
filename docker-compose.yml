@@ -12,6 +12,7 @@ services:
     restart: always
 
   crud-mysql-vuejs:
+    container_name: crud-mysql-vuejs
     build: .
     volumes:
     - .:/app
